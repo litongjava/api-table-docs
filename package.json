@@ -1,0 +1,26 @@
+{
+  "name": "api-table-docs",
+  "version": "1.0.0",
+  "description": "api-table 使用文档：无需编写 SQL 的表级增删改查接口、查询条件与导出",
+  "license": "MIT",
+  "type": "module",
+  "packageManager": "pnpm@10.34.9",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "docs:check": "node scripts/check-links.mjs"
+  },
+  "devDependencies": {
+    "@vuepress/bundler-vite": "2.0.0-rc.26",
+    "@vuepress/plugin-seo": "2.0.0-rc.121",
+    "@vuepress/plugin-sitemap": "2.0.0-rc.121",
+    "@vuepress/theme-default": "2.0.0-rc.121",
+    "sass-embedded": "^1.97.1",
+    "vue": "^3.5.26",
+    "vuepress": "2.0.0-rc.26",
+    "vuepress-plugin-search-pro": "2.0.0-rc.59"
+  }
+}
